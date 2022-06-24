@@ -3,10 +3,12 @@ namespace DemoLibrary;
 
 public class AccessDemo
 {
+    private int test;
+
     private void Demo()
     {
         // Demo caller for testing
-
+        PrivateDemo();
     }
 
     private void PrivateDemo()
@@ -33,7 +35,6 @@ public class AccessDemo
     {
 
     }
-
 
 }
 
