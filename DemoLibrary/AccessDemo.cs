@@ -26,6 +26,11 @@ public class AccessDemo
 
     }
 
+    protected internal void ProtectedInternalDemo()
+    {
+
+    }
+
     internal void InternalDemo()
     {
 
