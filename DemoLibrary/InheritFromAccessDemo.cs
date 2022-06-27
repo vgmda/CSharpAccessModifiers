@@ -11,6 +11,8 @@ class InheritFromAccessDemo : AccessDemo
         // Can be used as a helper methods
         ProtectedDemo();
         InternalDemo();
+        PrivateProtectedDemo();
+        ProtectedInternalDemo();
 
     }
 
