@@ -14,3 +14,4 @@
 The situation when a class with a protected internal element and an instantiated instance of this class are in the same assembly. In this case, access from the class instance to the protected internal element is (extension of the internal keyword). There is also access from a derived class (extension of the protected keyword).
 The situation when a class with a protected internal element is declared in one assembly and an instance of this class is created in another assembly. In this case, the instance does not have access to the protected internal element (internal constraint). But you can create a derived class and from this class access the protected internal element (extension protected).
 
+There are many benefits of using an access modifier. Above all, the accessibility of class members can be controlled at will. In other words, access modifiers prevent users to access sensitive data. This prevents accidental or malicious changes to the data.
