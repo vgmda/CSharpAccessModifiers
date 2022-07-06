@@ -10,3 +10,7 @@
 *   `Protected` - The type or member can be accessed only by code in the same class, or in a class that is obtained from that class.
 *   `Private Protected` - The type or member can be accessed by types derived from the class that are declared within its containing assembly.
 *   `Protected Internal` - The type or member can be accessed by any code in the assembly in which it's declared, or from within a derived class in another assembly.
+
+The situation when a class with a protected internal element and an instantiated instance of this class are in the same assembly. In this case, access from the class instance to the protected internal element is (extension of the internal keyword). There is also access from a derived class (extension of the protected keyword).
+The situation when a class with a protected internal element is declared in one assembly and an instance of this class is created in another assembly. In this case, the instance does not have access to the protected internal element (internal constraint). But you can create a derived class and from this class access the protected internal element (extension protected).
+
