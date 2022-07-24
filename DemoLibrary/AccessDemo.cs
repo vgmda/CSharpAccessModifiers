@@ -1,9 +1,9 @@
-﻿using System;
+﻿
 namespace DemoLibrary;
 
 public class AccessDemo
 {
-    private int test;
+    private readonly int test;
 
     private void Demo()
     {

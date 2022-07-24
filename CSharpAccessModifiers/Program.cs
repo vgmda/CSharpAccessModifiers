@@ -7,9 +7,9 @@ class Program
         // DRY - DONT REPEAT YOURSELF
         // MEANING - Create a method that can be used more than once, instead of re-writing that method - 
         // - under different variants
-        AccessDemo demo = new AccessDemo();
+        AccessDemo demo = new();
 
-        BadClass bad = new BadClass();
+        BadClass bad = new();
 
         bad.Age = 150;
 
