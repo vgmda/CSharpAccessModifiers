@@ -1,8 +1,8 @@
-# CSharpAccessModifiers
+## CSharpAccessModifiers
 
 > An access modifier in C# specifies who can see and use a resource. These are mainly used to restrict unwanted data manipulation by external programs or classes. There are **4** access modifiers (public, protected, internal, private) which defines the **6 accessibility levels** as follows.
 
-### Six different access modifiers:
+## Six different access modifiers:
 
 | Access Modifier | Description |
 | --- | --- |
